@@ -1,0 +1,48 @@
+.newsletter {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.newsletter-form {
+    height: 85px;
+    width: 100%;
+    padding: 0 40px;
+    border: 0;
+    background: #fff;
+    box-shadow: 0px 35px 46px 0px rgba(172, 189, 199, 0.28);
+    border-radius: 5px;
+}
+
+.newsletter-form:focus {
+    outline: 0;
+    box-shadow: 0;
+}
+
+.newsletter-btn {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+@media (max-width: 575px) {
+    .newsletter-btn {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+.newsletter-bg-shape {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    z-index: -1;
+}
+
+@media (max-width: 767px) {
+    .newsletter-bg-shape {
+        display: none;
+    }
+}

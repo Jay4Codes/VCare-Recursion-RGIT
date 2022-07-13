@@ -1,0 +1,187 @@
+.hero-section {
+    padding-top: 20px;
+    padding-bottom: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    margin-bottom: 300px;
+}
+
+.banner-image {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hero-bg-1 {
+    position: absolute;
+    left: 30px;
+    top: 200px;
+}
+
+@media (max-width: 767px) {
+    .hero-bg-1 {
+        display: none;
+    }
+}
+
+.hero-bg-2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+@media (max-width: 767px) {
+    .hero-bg-2 {
+        display: none;
+    }
+}
+
+.hero-bg-3 {
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+}
+
+@media (max-width: 767px) {
+    .hero-bg-3 {
+        display: none;
+    }
+}
+
+.hero-bg-4 {
+    top: 210px;
+    right: 40%;
+    position: absolute;
+}
+
+@media (max-width: 767px) {
+    .hero-bg-4 {
+        display: none;
+    }
+}
+
+.hero-bg-5 {
+    position: absolute;
+    top: 250px;
+    right: 17%;
+}
+
+@media (max-width: 767px) {
+    .hero-bg-5 {
+        display: none;
+    }
+}
+
+.hero-bg-6 {
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+}
+
+@media (max-width: 767px) {
+    .hero-bg-6 {
+        display: none;
+    }
+}
+
+.hero-bg-7 {
+    position: absolute;
+    left: 20%;
+    bottom: -17%;
+    z-index: 1;
+}
+
+@media (max-width: 767px) {
+    .hero-bg-7 {
+        display: none;
+    }
+}
+
+.hero-bg-8 {
+    position: absolute;
+    bottom: -30%;
+    right: 50%;
+    z-index: 1;
+}
+
+@media (max-width: 767px) {
+    .hero-bg-8 {
+        display: none;
+    }
+}
+
+.hero-bg-9 {
+    position: absolute;
+    right: 20%;
+    bottom: -10%;
+    z-index: 1;
+}
+
+@media (max-width: 767px) {
+    .hero-bg-9 {
+        display: none;
+    }
+}
+
+.service {
+    position: relative;
+    overflow: visible;
+}
+
+.service-list li {
+    margin-bottom: 30px;
+    color: #4d546f;
+}
+
+.service-list li i {
+    margin-right: 20px;
+    color: #4d546f;
+}
+
+.service-bg {
+    position: absolute;
+    right: 0;
+    top: -10%;
+    z-index: -1;
+}
+
+@media (max-width: 1200px) {
+    .service-bg {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 991px) {
+    .service-bg {
+        max-width: 400px;
+        top: 0;
+    }
+}
+
+.service-bg-shape-1 {
+    position: absolute;
+    left: 0;
+    top: 150px;
+    z-index: -1;
+}
+
+@media (max-width: 767px) {
+    .service-bg-shape-1 {
+        display: none;
+    }
+}
+
+.service-bg-shape-2 {
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (max-width: 767px) {
+    .service-bg-shape-2 {
+        display: none;
+    }
+}
