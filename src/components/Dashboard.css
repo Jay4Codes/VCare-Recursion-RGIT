@@ -1,0 +1,9 @@
+.charts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard h3 {
+    margin-top: 40px;
+}

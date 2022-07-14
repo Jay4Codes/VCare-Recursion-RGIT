@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-import bannerimg from "../images/hero-area/banner-img.png";
+import bannerimg from "../images/police-fir.png";
 import featurebg2 from "../images/background-shape/feature-bg-2.png";
 import seoball1 from "../images/background-shape/seo-ball-1.png";
 import seohalfcycle from "../images/background-shape/seo-half-cycle.png";
@@ -11,7 +11,7 @@ import bluehalfcycle from "../images/background-shape/blue-half-cycle.png";
 import servicehalfcycle from "../images/background-shape/service-half-cycle.png";
 import yellowtriangle from "../images/background-shape/yellow-triangle.png";
 import teambgtriangle from "../images/background-shape/team-bg-triangle.png";
-import service from "../images/service/service.png";
+import service from "../images/doc-scan.gif";
 import servicebg from "../images/backgrounds/service-bg.png";
 import "./Home.css";
 
@@ -96,17 +96,15 @@ function Home() {
         </div>
       </section>
       <section className="section-lg service">
-        <div className="container">
+        <div className="service-container container">
           <div className="row justify-content-between">
             <div className="col-md-5 order-2 order-md-1">
               <h2 className="section-title">
-                Powerful Layout From Top To Bottom
+                Fastest Conversion of PDFs and Native languages
               </h2>
               <p className="mb-4">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean.
+                With over hundreds of variety language conversions and smooth
+                FIR parses, we also provide insights from those FIRs
               </p>
               <ul className="pl-0 service-list">
                 <li>
@@ -123,7 +121,7 @@ function Home() {
               </ul>
             </div>
             <div className="col-md-7 order-1 order-md-2">
-              <img className="img-fluid layer-3" src={service} alt="service" />
+              <img className="img-fluid layer-3 service-img" src={service} alt="service" />
             </div>
           </div>
         </div>

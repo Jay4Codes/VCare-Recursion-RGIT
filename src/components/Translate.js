@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import countries from "../data";
 import Header from "./Header";
 import Footer from "./Footer";
+import './Translate.css'
 
 function Translate() {
   useEffect(() => {

@@ -1,0 +1,7 @@
+.output-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    text-align: left;
+}

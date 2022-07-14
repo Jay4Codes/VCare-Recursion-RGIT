@@ -10,7 +10,7 @@ function Footer() {
           <div className="row">
             <div className="col-lg-12 text-center">
               <h2>Subscribe to our newsletter</h2>
-              <p className="mb-5">Receive updates, news and deals</p>
+              <p className="mb-5">Receive updates, news and insights</p>
             </div>
             <div className="col-lg-8 col-sm-10 col-12 mx-auto">
               <form action="#">

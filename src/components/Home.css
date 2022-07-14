@@ -130,6 +130,19 @@
     overflow: visible;
 }
 
+.service img {
+    margin-left: 40px;
+}
+
+.service .service-img {
+    margin-left: 120px;
+}
+
+.service-container {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
 .service-list li {
     margin-bottom: 30px;
     color: #4d546f;

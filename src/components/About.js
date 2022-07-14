@@ -2,9 +2,9 @@ import React from "react";
 import "./About.css";
 import Header from "./Header";
 import Footer from "./Footer";
-import team1 from "../images/team/team-1.jpg";
-import team2 from "../images/team/team-2.jpg";
-import team3 from "../images/team/team-3.jpg";
+import team1 from "../images/team/team-1.png";
+import team2 from "../images/team/team-2.png";
+import team3 from "../images/team/team-3.png";
 import teambg from "../images/backgrounds/team-bg.png";
 import seoball1 from "../images/background-shape/seo-ball-1.png";
 import teamtriangle from "../images/background-shape/team-bg-triangle.png";
@@ -20,10 +20,9 @@ function About() {
             <div className="col-lg-12 text-center">
               <h2 className="section-title">Our Team</h2>
               <p className="mb-100">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu
+                FIR Conversion and Translation Project by Team Coders4Life
                 <br />
-                fugiat nulla pariatur. Excepteur sint occaecat{" "}
+                for Codefiesta by SMVIT, Bengaluru - 2022{" "}
               </p>
             </div>
           </div>
@@ -40,13 +39,12 @@ function About() {
                   </div>
                   <div className="align-self-center">
                     <h4>Jay Jain</h4>
-                    <h6 className="text-color">Front-End designer</h6>
+                    <h6 className="text-color">Developer</h6>
                   </div>
                 </div>
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  S eparated they
+                  Just another guy programming my life for 20 years living in
+                  the city Of dreams.
                 </p>
               </div>
               <div className="team-member">
@@ -60,13 +58,11 @@ function About() {
                   </div>
                   <div className="align-self-center">
                     <h4>Deep Patel</h4>
-                    <h6 className="text-color">Backend developer</h6>
+                    <h6 className="text-color">Developer</h6>
                   </div>
                 </div>
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  S eparated they
+                  CSE Student At Dwarkadas J. Sanghvi college of Engineering
                 </p>
               </div>
               <div className="team-member">
@@ -80,14 +76,10 @@ function About() {
                   </div>
                   <div className="align-self-center">
                     <h4>Yash Joshi</h4>
-                    <h6 className="text-color">Backend Developer</h6>
+                    <h6 className="text-color">Developer</h6>
                   </div>
                 </div>
-                <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  S eparated they
-                </p>
+                <p>My determination is higher than my smartness.</p>
               </div>
             </div>
           </div>
