@@ -27,7 +27,8 @@ Graph and Pie charts so police can accordingly Plan to counter these crimes.
 
 Here we also provide a Videochatapp so Police officers can commumnicate with each other .Police can extract Text from PDF and Translate to English for effective Communication
 
-The feature available in fir  .
+The feature available in fir.
+
 -> Data Visualization
 
 ->Language Translation
