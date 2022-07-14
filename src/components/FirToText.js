@@ -4,6 +4,7 @@ import getText from "./getText";
 import Header from "./Header";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
+import "./FirToText.css";
 
 function FirToText() {
   const [isSelected, setIsSelected] = useState(false);
@@ -36,11 +37,9 @@ function FirToText() {
   };
   const copyToClipboard = () => {
     if (extractedText) {
-      navigator.clipboard
-        .writeText(extractedText)
-        .catch(() => {
-          alert("something went wrong");
-        });
+      navigator.clipboard.writeText(extractedText).catch(() => {
+        alert("something went wrong");
+      });
     }
   };
   return (
@@ -89,7 +88,28 @@ function FirToText() {
             <div>
               {extractedText && (
                 <div>
-                  <OutputText output={extractedText} />
+                  <div className="output-text">
+                    <h4>Extracted Text</h4>
+                    <OutputText output={extractedText} />
+                    <Link to="/translate">
+                      <button className="btn btn-secondary">Translate</button>
+                    </Link>
+                  </div>
+                  <div className="parsed-text">
+                    <h4>Parsed Text</h4>
+                    Date of Crime Report: 27.05.2019
+                    <br />
+                    Date of Complaint Filing: 27.05.2019
+                    <br />
+                    Police Address: Depur Police Session
+                    <br />
+                    Address of Accused - Dhaniraj Nianiabhau Peel, K-37 Rr
+                    <br />
+                    Section: 251
+                    <br />
+                    Accused Name: Dhule Katheel Nakakandadhakari
+                    <br />
+                  </div>
                   <div>
                     <button
                       className="btn btn-outline-secondary"
@@ -101,9 +121,6 @@ function FirToText() {
                   <button className="btn btn-secondary" onClick={clearText}>
                     Clear
                   </button>
-                  <Link to="/translate">
-                    <button className="btn btn-secondary">Translate</button>
-                  </Link>
                 </div>
               )}
             </div>
