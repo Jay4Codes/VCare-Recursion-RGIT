@@ -135,7 +135,7 @@ function Dashboard() {
           </Bar>
         </BarChart>
       </div>
-      <h3 className="text-center">Convictions in Bengaluru vs Vijayapura</h3>
+      <h3 className="text-center">Convictions in Bengaluru vs Vijayapura in 2022</h3>
       <div className="charts section-lg">
         <ResponsiveContainer width="800%" aspect={3}>
           <LineChart data={pdata} margin={{ right: 100, left: 80 }}>
