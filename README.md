@@ -29,8 +29,11 @@ Here we also provide a Videochatapp so Police officers can commumnicate with eac
 
 The feature available in fir  .
 -> Data Visualization
+
 ->Language Translation
+
 ->Video call
+
 ->Chat bot
 
 Success usually comes to those who are too busy to be looking for it.” – Henry David Thoreau
