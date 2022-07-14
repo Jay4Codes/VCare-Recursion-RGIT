@@ -35,13 +35,8 @@ The feature available in fir.
 
 ->Video call
 
-->Chat bot
 
 Success usually comes to those who are too busy to be looking for it.” – Henry David Thoreau
 
 Now we are taking this time to introduce you guys with the web thing of our company which is basically a website.
 
-
-
-
-# FIR_Management_CodeFiesta
